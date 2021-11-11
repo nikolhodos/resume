@@ -1,0 +1,210 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    font-style: italic;
+}
+
+#main-content{
+    width: 100%;
+    display: flex;
+}
+
+#left-bar{
+    width: 27%;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+}
+
+#skills2{
+    color: rgb(138, 204, 209);
+    font-size: 15px;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+#skills2> a{
+    color: black
+}
+
+#skill-bars > p{
+    margin: 20px auto 3px auto;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#skill-bars > div{
+    background-color: rgb(219, 219, 219);
+    border-radius: 13px;
+    padding: 0px;
+    border-style: inset;
+  }
+  
+  #skill-bars > div > #html-skill{
+    background-color: rgb(138, 204, 209);
+    width: 100%;
+    height: 13px;
+    border-radius: 10px;
+  }
+
+  #skill-bars > div > #css-skill {
+    background-color: rgb(138, 204, 209);
+    width: 80%;
+    height: 13px;
+    border-radius: 10px;
+  }
+
+  #skill-bars > div > #bootstrap-skill {
+    background-color: rgb(138, 204, 209);
+    width: 60%;
+    height: 13px;
+    border-radius: 10px;
+  }   
+
+  #skill-bars > div > #javascript-skill {
+    background-color: rgb(138, 204, 209);
+    width: 10%;
+    height: 13px;
+    border-radius: 10px;
+  }
+
+#picture-container > img, #picture-container {
+    max-width: 100%;
+    height: auto;
+    background-size: 150px;
+    width: 300px;
+    height: 300px;
+    padding-left: 8.5px;
+    border-radius: 25px;  
+}
+
+#picture-container > h2 {
+    position: absolute;
+    bottom: 220px;
+    padding: 10px;
+    padding-left: 15px;
+    color:rgb(138, 204, 209);
+}
+
+#right-bar{
+    width:69%;
+    height: 50%;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+}
+
+#right-bar-down{
+    width:69%;
+    height: 50%;
+    margin: 1%;
+    padding: 1%;
+    background-color: white;
+}
+
+#work-container >i{
+    color: rgb(138, 204, 209);
+    font-size: 13px;
+    margin: 22px;
+    margin-right: 0%;
+}
+
+#work-description > a, i{
+    color: rgb(138, 204, 209);
+    font-size: 13px;
+    margin: 22px;
+    margin-right: 0%;  
+}
+
+#education-container > i{
+    color: rgb(138, 204, 209);
+    font-size: 13px;
+    margin: 22px;
+    margin-right: 0%;
+}
+
+#education-description >a, i{
+    color: rgb(138, 204, 209);
+    font-size: 13px;
+    margin: 22px;
+    margin-right: 0%;  
+}
+
+#about-me > div > i{
+    color: rgb(138, 204, 209);
+    font-size: 15px;
+    margin: 22px; 
+    margin-right: 2%;
+}
+
+hr{
+    border-top: 0.5px solid rgb(231, 231, 231);
+    width: 100%;
+    margin-top: 7%;
+}
+
+#languages2{
+    color: rgb(138, 204, 209);
+    font-size: 15px;
+    padding-top: 5%;
+    font-weight: bold;
+    padding-top: 7%;
+}
+
+#languages2 > a{
+    color:black
+}
+
+#language-bars > p{
+    margin: 20px auto 3px auto;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#language-bars > div {
+    background-color: rgb(219, 219, 219);
+    border-radius: 13px;
+    padding: 0px;
+    border-style: inset;
+}
+
+#language-bars > div > #hebrew-language{
+    background-color: rgb(138, 204, 209);
+    width: 100%;
+    height: 13px;
+    border-radius: 10px;
+}
+
+#language-bars > div > #english-language{
+    background-color: rgb(138, 204, 209);
+    width: 90%;
+    height: 13px;
+    border-radius: 10px;
+}
+
+#language-bars > div > #russian-language{
+    background-color: rgb(138, 204, 209);
+    width: 75%;
+    height: 13px;
+    border-radius: 10px;
+}
+
+#language-bars > div > #spanish-language{
+    background-color: rgb(138, 204, 209);
+    width: 75%;
+    height: 13px;
+    border-radius: 10px;
+}
+
+#language-bars > div > #arabic-language{
+    background-color: rgb(138, 204, 209);
+    width: 20%;
+    height: 13px;
+    border-radius: 10px;
+}
+
