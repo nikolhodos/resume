@@ -6,7 +6,6 @@ html, body {
 
 body {
     background-color: rgb(219, 219, 219);
-    font-style: italic;
 }
 
 #main-content{
@@ -15,26 +14,33 @@ body {
 }
 
 #left-bar{
-    width: 27%;
+    width: 25%;
     margin: 1%;
-    padding: 1%;
     background-color: white;
 }
 
-#skills2{
+#left-bar > h3 > i {
     color: rgb(138, 204, 209);
-    font-size: 15px;
-    padding-top: 5%;
-    font-weight: bold;
+    padding: 0 1% 0 4%;
 }
 
-#skills2> a{
-    color: black
+#skill-bars{
+    padding: 0 4%;
+}
+
+#language-bars{
+    padding: 0 4%;
+    margin-bottom: 0.4%;
+}
+
+#skill-bars > div > div{
+    color: #000;
+    font-size: 11px;
+    text-align: center;
 }
 
 #skill-bars > p{
     margin: 20px auto 3px auto;
-    font-style: italic;
     font-size: 13px;
 }
 
@@ -43,95 +49,89 @@ body {
     border-radius: 13px;
     padding: 0px;
     border-style: inset;
-  }
+}
   
-  #skill-bars > div > #html-skill{
+#skill-bars > div > #html-skill{
     background-color: rgb(138, 204, 209);
     width: 100%;
     height: 13px;
     border-radius: 10px;
-  }
+}
 
-  #skill-bars > div > #css-skill {
+#skill-bars > div > #css-skill {
     background-color: rgb(138, 204, 209);
     width: 80%;
     height: 13px;
     border-radius: 10px;
-  }
+}
 
-  #skill-bars > div > #bootstrap-skill {
+#skill-bars > div > #bootstrap-skill {
     background-color: rgb(138, 204, 209);
     width: 60%;
     height: 13px;
     border-radius: 10px;
-  }   
+}   
 
-  #skill-bars > div > #javascript-skill {
+#skill-bars > div > #javascript-skill {
     background-color: rgb(138, 204, 209);
     width: 10%;
     height: 13px;
     border-radius: 10px;
-  }
+}
+
+#picture-container > img{
+      height: 300px;
+      object-fit: scale-down;
+}
 
 #picture-container > img, #picture-container {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     background-size: 150px;
-    width: 300px;
-    height: 300px;
-    padding-left: 8.5px;
-    border-radius: 25px;  
+    border-radius: px;  
 }
 
 #picture-container > h2 {
     position: absolute;
-    bottom: 220px;
+    bottom: 585px;
     padding: 10px;
-    padding-left: 15px;
+    padding-left: 90px;
     color:rgb(138, 204, 209);
 }
 
 #right-bar{
-    width:69%;
+    width:71%;
     height: 50%;
     margin: 1%;
+}
+
+#right-bar-down {
+    margin-top: 1%;
+}
+
+#right-bar-up{
+    margin-bottom: 1%;
+}
+
+#right-bar-down, #right-bar-up{
+    height: 50%;
     padding: 1%;
     background-color: white;
 }
 
-#right-bar-down{
-    width:69%;
-    height: 50%;
-    margin: 1%;
-    padding: 1%;
-    background-color: white;
+#work-container >i, #education-container > i{
+    color: rgb(138, 204, 209);
+    font-size: 22px;
+    margin: 0;
 }
 
-#work-container >i{
-    color: rgb(138, 204, 209);
-    font-size: 13px;
-    margin: 22px;
-    margin-right: 0%;
+#work-container > h1, #education-container > h1 {
+    display: inline;
 }
 
-#work-description > a, i{
+#work-description > a, #work-description > i,
+#education-description >a, #education-description >i{
     color: rgb(138, 204, 209);
-    font-size: 13px;
-    margin: 22px;
-    margin-right: 0%;  
-}
-
-#education-container > i{
-    color: rgb(138, 204, 209);
-    font-size: 13px;
-    margin: 22px;
-    margin-right: 0%;
-}
-
-#education-description >a, i{
-    color: rgb(138, 204, 209);
-    font-size: 13px;
-    margin: 22px;
+    font-size: 16px;
     margin-right: 0%;  
 }
 
@@ -140,29 +140,25 @@ body {
     font-size: 15px;
     margin: 22px; 
     margin-right: 2%;
+    margin-left: 19%;
 }
 
-hr{
+#about-me > hr{
     border-top: 0.5px solid rgb(231, 231, 231);
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;   
+}
+
+#education-description > hr{
+    border-top: 0.5px solid rgba(231, 231, 231);
     width: 100%;
-    margin-top: 7%;
-}
-
-#languages2{
-    color: rgb(138, 204, 209);
-    font-size: 15px;
-    padding-top: 5%;
-    font-weight: bold;
-    padding-top: 7%;
-}
-
-#languages2 > a{
-    color:black
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #language-bars > p{
     margin: 20px auto 3px auto;
-    font-style: italic;
     font-size: 13px;
 }
 
